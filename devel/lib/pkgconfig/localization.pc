@@ -1,8 +1,0 @@
-prefix=/home/helshafe/ECE418_Project/devel
-
-Name: localization
-Description: Description of localization
-Version: 0.0.0
-Cflags: -I/home/helshafe/ECE418_Project/src/localization/include
-Libs: -L${prefix}/lib -llocalization
-Requires: 

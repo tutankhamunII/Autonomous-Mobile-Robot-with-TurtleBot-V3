@@ -1,8 +1,0 @@
-prefix=/home/helshafe/ECE418_Project/devel
-
-Name: mapper
-Description: Description of mapper
-Version: 0.0.0
-Cflags: -I/home/helshafe/ECE418_Project/src/mapper/include
-Libs: -L${prefix}/lib -lmapper
-Requires: geometry_msgs nav_msgs roscpp rospy sensor_msgs std_msgs
