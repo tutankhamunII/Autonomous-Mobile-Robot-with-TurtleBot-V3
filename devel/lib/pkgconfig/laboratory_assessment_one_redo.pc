@@ -1,0 +1,8 @@
+prefix=/home/helshafe/ECE418_Project/devel
+
+Name: laboratory_assessment_one_redo
+Description: Description of laboratory_assessment_one_redo
+Version: 0.0.0
+Cflags: -I/home/helshafe/ECE418_Project/src/laboratory_assessment_one_redo/include
+Libs: -L${prefix}/lib -llaboratory_assessment_one_redo
+Requires: geometry_msgs message_generation message_runtime nav_msgs roscpp rospy std_msgs

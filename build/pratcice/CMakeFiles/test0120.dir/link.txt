@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/test0120.dir/src/test0120.cpp.o  -o /home/helshafe/ECE418_Project/devel/lib/pratcice/test0120 

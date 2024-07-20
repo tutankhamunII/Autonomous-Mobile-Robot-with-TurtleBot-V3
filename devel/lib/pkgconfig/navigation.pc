@@ -1,0 +1,8 @@
+prefix=/home/helshafe/ECE418_Project/devel
+
+Name: navigation
+Description: Description of navigation
+Version: 0.0.0
+Cflags: -I/home/helshafe/ECE418_Project/src/navigation/include
+Libs: -L${prefix}/lib -lnavigation
+Requires: geometry_msgs localization mapper nav_msgs perception roscpp rospy std_msgs

@@ -1,0 +1,11 @@
+<launch>
+<node name="landmarks_publisher" pkg="executive" type="landmarks_publisher"/>
+<node name="obstacles_publisher" pkg="simulator" type="obstacles_publisher"/>
+<node name="goal_publisher" pkg="navigation" type="goal_publisher"/>
+<node name="simulator_node" pkg="simulator" type="simulator_node"/>
+<node name="gui_node" pkg="gui" type="gui_node"/>
+<node name="mapper_node" pkg="mapper" type="mapper_node"/>
+<node name="planning_node" pkg="navigation" type="navi_node" output="screen"/>
+<node name="ekf_slam_localization_node" pkg="localization" type="localization_node"/>
+</launch>
+

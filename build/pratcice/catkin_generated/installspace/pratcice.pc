@@ -1,0 +1,8 @@
+prefix=/home/helshafe/ECE418_Project/install
+
+Name: pratcice
+Description: Description of pratcice
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lpratcice
+Requires: roscpp rospy std_msgs

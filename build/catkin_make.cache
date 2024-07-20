@@ -1,0 +1,2 @@
+executive:gui:interprocess_communication:localization:mapper:navigation:perception:simulator
+-DCATKIN_DEVEL_PREFIX=/home/helshafe/ECE418_Project/devel -DCMAKE_INSTALL_PREFIX=/home/helshafe/ECE418_Project/install -G Unix Makefiles

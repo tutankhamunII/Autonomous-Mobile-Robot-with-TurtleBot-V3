@@ -1,0 +1,8 @@
+<launch>
+<node name="perception" pkg="perception" type="perception_node"/>
+<node name="mapper_node" pkg="mapper" type="mapper_node"/>
+<node name="planning_node" pkg="navigation" type="navi_node" output="screen"/>
+<node name="ekf_slam_localization_node" pkg="localization" type="localization_node"/>
+<node name="executive_node" pkg="executive" type="executive_node"/>
+</launch>
+

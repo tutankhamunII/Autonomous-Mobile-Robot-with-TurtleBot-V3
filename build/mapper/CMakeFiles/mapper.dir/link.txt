@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC   -shared -Wl,-soname,libmapper.so -o /home/helshafe/ECE418_Project/devel/lib/libmapper.so CMakeFiles/mapper.dir/src/mapper/ocmap.cpp.o 

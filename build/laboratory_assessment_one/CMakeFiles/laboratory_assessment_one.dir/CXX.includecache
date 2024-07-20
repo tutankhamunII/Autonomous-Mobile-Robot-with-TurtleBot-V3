@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/helshafe/ECE418_Project/src/laboratory_assessment_one/include/laboratory_assessment_one/laboratory_assessment_one.h
+
+/home/helshafe/ECE418_Project/src/laboratory_assessment_one/src/laboratory_assessment_one/laboratory_assessment_one.cpp
+laboratory_assessment_one/laboratory_assessment_one.h
+-
+

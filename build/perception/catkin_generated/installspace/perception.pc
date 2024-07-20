@@ -1,0 +1,8 @@
+prefix=/home/helshafe/ECE418_Project/install
+
+Name: perception
+Description: Description of perception
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib -lperception
+Requires: 
