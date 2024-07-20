@@ -1,8 +1,0 @@
-prefix=/home/helshafe/ECE418_Project/install
-
-Name: laboratory_assessment_one
-Description: Description of laboratory_assessment_one
-Version: 0.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib -llaboratory_assessment_one
-Requires: 
